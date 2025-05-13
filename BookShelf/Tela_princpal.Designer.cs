@@ -88,7 +88,7 @@
             // 
             // pictureBox4
             // 
-            pictureBox4.Image = (Image)resources.GetObject("pictureBox4.Image");
+            pictureBox4.Image = Properties.Resources._5f9d8322_69d6_45f7_ad15_8ae4619609a7;
             pictureBox4.Location = new Point(266, 66);
             pictureBox4.Name = "pictureBox4";
             pictureBox4.Size = new Size(322, 301);

@@ -59,5 +59,15 @@ namespace BookShelf.Properties {
                 resourceCulture = value;
             }
         }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _5f9d8322_69d6_45f7_ad15_8ae4619609a7 {
+            get {
+                object obj = ResourceManager.GetObject("5f9d8322-69d6-45f7-ad15-8ae4619609a7", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }

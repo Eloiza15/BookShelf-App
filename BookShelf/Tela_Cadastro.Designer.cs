@@ -28,20 +28,19 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Tela_Cadastro));
             groupBox1 = new GroupBox();
-            txt_nome = new TextBox();
-            txt_login = new TextBox();
-            txt_email = new TextBox();
-            txt_senha = new TextBox();
-            label1 = new Label();
-            label2 = new Label();
-            label3 = new Label();
-            label4 = new Label();
-            panel1 = new Panel();
             button1 = new Button();
-            linkLabel1 = new LinkLabel();
+            panel1 = new Panel();
             label5 = new Label();
+            linkLabel1 = new LinkLabel();
+            label4 = new Label();
+            label3 = new Label();
+            label2 = new Label();
+            label1 = new Label();
+            txt_senha = new TextBox();
+            txt_email = new TextBox();
+            txt_login = new TextBox();
+            txt_nome = new TextBox();
             pictureBox1 = new PictureBox();
             groupBox1.SuspendLayout();
             panel1.SuspendLayout();
@@ -68,80 +67,6 @@
             groupBox1.TabStop = false;
             groupBox1.Text = "Cadastro";
             // 
-            // txt_nome
-            // 
-            txt_nome.Location = new Point(32, 66);
-            txt_nome.Name = "txt_nome";
-            txt_nome.Size = new Size(305, 31);
-            txt_nome.TabIndex = 0;
-            // 
-            // txt_login
-            // 
-            txt_login.Location = new Point(32, 128);
-            txt_login.Name = "txt_login";
-            txt_login.Size = new Size(305, 31);
-            txt_login.TabIndex = 1;
-            // 
-            // txt_email
-            // 
-            txt_email.Location = new Point(32, 190);
-            txt_email.Name = "txt_email";
-            txt_email.Size = new Size(305, 31);
-            txt_email.TabIndex = 2;
-            // 
-            // txt_senha
-            // 
-            txt_senha.Location = new Point(32, 252);
-            txt_senha.Name = "txt_senha";
-            txt_senha.Size = new Size(305, 31);
-            txt_senha.TabIndex = 3;
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Location = new Point(32, 38);
-            label1.Name = "label1";
-            label1.Size = new Size(65, 25);
-            label1.TabIndex = 4;
-            label1.Text = "Nome:";
-            // 
-            // label2
-            // 
-            label2.AutoSize = true;
-            label2.Location = new Point(32, 100);
-            label2.Name = "label2";
-            label2.Size = new Size(60, 25);
-            label2.TabIndex = 5;
-            label2.Text = "Login:";
-            // 
-            // label3
-            // 
-            label3.AutoSize = true;
-            label3.Location = new Point(32, 162);
-            label3.Name = "label3";
-            label3.Size = new Size(58, 25);
-            label3.TabIndex = 6;
-            label3.Text = "Email:";
-            // 
-            // label4
-            // 
-            label4.AutoSize = true;
-            label4.Location = new Point(32, 224);
-            label4.Name = "label4";
-            label4.Size = new Size(64, 25);
-            label4.TabIndex = 7;
-            label4.Text = "Senha:";
-            // 
-            // panel1
-            // 
-            panel1.BackColor = SystemColors.ActiveBorder;
-            panel1.Controls.Add(label5);
-            panel1.Controls.Add(linkLabel1);
-            panel1.Location = new Point(0, 344);
-            panel1.Name = "panel1";
-            panel1.Size = new Size(372, 46);
-            panel1.TabIndex = 8;
-            // 
             // button1
             // 
             button1.BackColor = Color.Indigo;
@@ -155,15 +80,15 @@
             button1.Text = "Cadastrar";
             button1.UseVisualStyleBackColor = false;
             // 
-            // linkLabel1
+            // panel1
             // 
-            linkLabel1.AutoSize = true;
-            linkLabel1.Location = new Point(231, 9);
-            linkLabel1.Name = "linkLabel1";
-            linkLabel1.Size = new Size(57, 25);
-            linkLabel1.TabIndex = 0;
-            linkLabel1.TabStop = true;
-            linkLabel1.Text = "Logar";
+            panel1.BackColor = SystemColors.ActiveBorder;
+            panel1.Controls.Add(label5);
+            panel1.Controls.Add(linkLabel1);
+            panel1.Location = new Point(0, 344);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(372, 46);
+            panel1.TabIndex = 8;
             // 
             // label5
             // 
@@ -174,10 +99,84 @@
             label5.TabIndex = 1;
             label5.Text = "Ja possui conta?";
             // 
+            // linkLabel1
+            // 
+            linkLabel1.AutoSize = true;
+            linkLabel1.Location = new Point(231, 9);
+            linkLabel1.Name = "linkLabel1";
+            linkLabel1.Size = new Size(57, 25);
+            linkLabel1.TabIndex = 0;
+            linkLabel1.TabStop = true;
+            linkLabel1.Text = "Logar";
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Location = new Point(32, 224);
+            label4.Name = "label4";
+            label4.Size = new Size(64, 25);
+            label4.TabIndex = 7;
+            label4.Text = "Senha:";
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Location = new Point(32, 162);
+            label3.Name = "label3";
+            label3.Size = new Size(58, 25);
+            label3.TabIndex = 6;
+            label3.Text = "Email:";
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Location = new Point(32, 100);
+            label2.Name = "label2";
+            label2.Size = new Size(60, 25);
+            label2.TabIndex = 5;
+            label2.Text = "Login:";
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Location = new Point(32, 38);
+            label1.Name = "label1";
+            label1.Size = new Size(65, 25);
+            label1.TabIndex = 4;
+            label1.Text = "Nome:";
+            // 
+            // txt_senha
+            // 
+            txt_senha.Location = new Point(32, 252);
+            txt_senha.Name = "txt_senha";
+            txt_senha.Size = new Size(305, 31);
+            txt_senha.TabIndex = 3;
+            // 
+            // txt_email
+            // 
+            txt_email.Location = new Point(32, 190);
+            txt_email.Name = "txt_email";
+            txt_email.Size = new Size(305, 31);
+            txt_email.TabIndex = 2;
+            // 
+            // txt_login
+            // 
+            txt_login.Location = new Point(32, 128);
+            txt_login.Name = "txt_login";
+            txt_login.Size = new Size(305, 31);
+            txt_login.TabIndex = 1;
+            // 
+            // txt_nome
+            // 
+            txt_nome.Location = new Point(32, 66);
+            txt_nome.Name = "txt_nome";
+            txt_nome.Size = new Size(305, 31);
+            txt_nome.TabIndex = 0;
+            // 
             // pictureBox1
             // 
-            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(440, 27);
+            pictureBox1.Image = Properties.Resources._5f9d8322_69d6_45f7_ad15_8ae4619609a7;
+            pictureBox1.Location = new Point(419, 27);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(380, 390);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
