@@ -69,5 +69,15 @@ namespace BookShelf.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ChatGPT_Image_18_de_mai__de_2025__12_17_53 {
+            get {
+                object obj = ResourceManager.GetObject("ChatGPT Image 18 de mai. de 2025, 12_17_53", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }
