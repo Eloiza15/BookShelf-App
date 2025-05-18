@@ -8,6 +8,10 @@ BookShelf é um aplicativo de gerenciamento de coleção de livros, desenvolvido
 - Pedro Ryan – [@Pedro8016bit](https://github.com/Pedro8016bit)
 - Geovane Armanelli – [@Geovane177](https://github.com/Geovane177)
 
+- ⚠️ Atenção! 
+
+**Os desenvolvedores que estão no repositório *README* são 100% responsáveis pelo projeto. Todo o trabalho, ideias e melhorias vêm diretamente deles.**
+
 ## 🎓 Projeto Acadêmico
 
 **Curso:** Técnico em Desenvolvimento de Sistemas – SENAI  
